@@ -1,0 +1,144 @@
+[
+  {"Kelime": "Yaradan", "DogruMu": true},
+  {"Kelime": "Yaratan", "DogruMu": false},
+
+  {"Kelime": "imalât", "DogruMu": true},
+  {"Kelime": "imalat", "DogruMu": false},
+
+  {"Kelime": "çevrim içi", "DogruMu": true},
+  {"Kelime": "çevrimiçi", "DogruMu": false},
+
+  {"Kelime": "küsur", "DogruMu": true},
+  {"Kelime": "küsür", "DogruMu": false},
+
+  {"Kelime": "hafriyat", "DogruMu": true},
+  {"Kelime": "harfiyat", "DogruMu": false},
+
+  {"Kelime": "ünvan", "DogruMu": true},
+  {"Kelime": "unvan", "DogruMu": false},
+
+  {"Kelime": "şoför", "DogruMu": true},
+  {"Kelime": "şöför", "DogruMu": false},
+
+  {"Kelime": "doküman", "DogruMu": true},
+  {"Kelime": "döküman", "DogruMu": false},
+
+  {"Kelime": "acayip", "DogruMu": true},
+  {"Kelime": "acaip", "DogruMu": false},
+
+  {"Kelime": "zarafet", "DogruMu": true},
+  {"Kelime": "zerafet", "DogruMu": false},
+  {"Kelime": "alışveriş", "DogruMu": true},
+  {"Kelime": "alışverişi", "DogruMu": false},
+
+  {"Kelime": "herkes", "DogruMu": true},
+  {"Kelime": "herkez", "DogruMu": false},
+
+  {"Kelime": "çoğunluk", "DogruMu": true},
+  {"Kelime": "çoğunlukh", "DogruMu": false},
+
+  {"Kelime": "güya", "DogruMu": true},
+  {"Kelime": "guya", "DogruMu": false},
+
+  {"Kelime": "apandisit", "DogruMu": true},
+  {"Kelime": "apandist", "DogruMu": false},
+
+  {"Kelime": "şemsiye", "DogruMu": true},
+  {"Kelime": "şemsiyeh", "DogruMu": false},
+
+  {"Kelime": "hakikat", "DogruMu": true},
+  {"Kelime": "hakkiat", "DogruMu": false},
+
+  {"Kelime": "hâlâ", "DogruMu": true},
+  {"Kelime": "hala", "DogruMu": false},
+
+  {"Kelime": "program", "DogruMu": true},
+  {"Kelime": "proğram", "DogruMu": false},
+
+  {"Kelime": "vaziyet", "DogruMu": true},
+  {"Kelime": "vaziyed", "DogruMu": false},
+
+
+  {"Kelime": "müteahhit", "DogruMu": true},
+  {"Kelime": "müteahit", "DogruMu": false},
+
+  {"Kelime": "şiddet", "DogruMu": true},
+  {"Kelime": "şidet", "DogruMu": false},
+
+  {"Kelime": "karşılık", "DogruMu": true},
+  {"Kelime": "karşıllık", "DogruMu": false},
+
+  {"Kelime": "yanıt", "DogruMu": true},
+  {"Kelime": "yanıtı", "DogruMu": false},
+
+  {"Kelime": "harikulade", "DogruMu": true},
+  {"Kelime": "harikülade", "DogruMu": false},
+
+  {"Kelime": "mantık", "DogruMu": true},
+  {"Kelime": "mantıg", "DogruMu": false},
+
+  {"Kelime": "ticaret", "DogruMu": true},
+  {"Kelime": "ticaret ", "DogruMu": false},
+
+  {"Kelime": "kalp", "DogruMu": true},
+  {"Kelime": "kalb", "DogruMu": false},
+
+  {"Kelime": "rehber", "DogruMu": true},
+  {"Kelime": "rehper", "DogruMu": false},
+
+
+  {"Kelime": "kıyafet", "DogruMu": true},
+  {"Kelime": "kıyafed", "DogruMu": false},
+
+  {"Kelime": "espri", "DogruMu": true},
+  {"Kelime": "espiri", "DogruMu": false},
+
+  {"Kelime": "fırsat", "DogruMu": true},
+  {"Kelime": "fırsad", "DogruMu": false},
+
+  {"Kelime": "kolaylık", "DogruMu": true},
+  {"Kelime": "kolaylıhk", "DogruMu": false},
+
+  {"Kelime": "kıyas", "DogruMu": true},
+  {"Kelime": "kıyasz", "DogruMu": false},
+
+  {"Kelime": "şart", "DogruMu": true},
+  {"Kelime": "şard", "DogruMu": false},
+
+  {"Kelime": "hayret", "DogruMu": true},
+  {"Kelime": "hayred", "DogruMu": false},
+
+  {"Kelime": "kalemi", "DogruMu": true},
+  {"Kelime": "kalemı", "DogruMu": false},
+
+  {"Kelime": "yetenek", "DogruMu": true},
+  {"Kelime": "yetenekd", "DogruMu": false},
+
+
+  {"Kelime": "mücadele", "DogruMu": true},
+  {"Kelime": "mücadelee", "DogruMu": false},
+
+  {"Kelime": "imkân", "DogruMu": true},
+  {"Kelime": "imkan", "DogruMu": false},
+
+  {"Kelime": "sebepsiz", "DogruMu": true},
+  {"Kelime": "sebsiz", "DogruMu": false},
+
+  {"Kelime": "şans", "DogruMu": true},
+  {"Kelime": "şanss", "DogruMu": false},
+
+  {"Kelime": "hukuk", "DogruMu": true},
+  {"Kelime": "hukkuk", "DogruMu": false},
+
+  {"Kelime": "kamuoyu", "DogruMu": true},
+  {"Kelime": "kamu oyu", "DogruMu": false},
+
+  {"Kelime": "talep", "DogruMu": true},
+  {"Kelime": "taleb", "DogruMu": false},
+
+  {"Kelime": "şahit", "DogruMu": true},
+  {"Kelime": "şahıt", "DogruMu": false},
+
+  {"Kelime": "mesafe", "DogruMu": true},
+  {"Kelime": "mesafee", "DogruMu": false}
+]
