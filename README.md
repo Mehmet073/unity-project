@@ -19,6 +19,9 @@ Menü Ekranı:
 ![image alt](https://github.com/Mehmet073/unity-project/blob/be95d55a6f77469a04c716af169841d76cf1d986/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-12-18%20225505.png)
 
 ## 🕹️ Kodlar 
+
+Kelime Oyun Kontorolü
+
 ```csharp
   using System.Collections;
 using System.Collections.Generic;
@@ -224,4 +227,71 @@ public class KelimeOyunKontrolu : MonoBehaviour
     }
 
 }
+```
+Karakter hareket kodları :
+
+```csharp
+  using UnityEngine;
+using UnityEngine.SceneManagement;
+public class KarakterHareketi : MonoBehaviour
+{
+    public GameObject panel;
+    public float hareketHizi = 5f;
+    public float donmeHizi = 250f;
+    public float ziplamaGucu = 6f;
+
+    private Rigidbody rb;
+    private bool ziplayabilir = true;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+
+    void Update()
+    {
+        
+        float ileriGeri = Input.GetAxis("Vertical");
+
+        
+        float sagaSola = Input.GetAxis("Horizontal");
+
+        Vector3 hareket =
+            transform.forward * ileriGeri +
+            transform.right * sagaSola;
+
+        hareket *= hareketHizi * Time.deltaTime;
+        transform.Translate(hareket, Space.World);
+
+       
+        if (Input.GetMouseButton(0))
+        {
+            float mouseX = Input.GetAxis("Mouse X");
+            float donme = mouseX * donmeHizi * Time.deltaTime;
+            transform.Rotate(Vector3.up, donme);
+        }
+
+        
+        if (ziplayabilir && Input.GetButtonDown("Jump"))
+        {
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
+            rb.AddForce(Vector3.up * ziplamaGucu, ForceMode.Impulse);
+            ziplayabilir = false;
+        }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Zemin"))
+        {
+            ziplayabilir = true;
+        }
+    }
+    public void PanelAc()
+    {
+        panel.SetActive(true);
+        Debug.Log("asdaaa");
+    }
+}
+
 ```
