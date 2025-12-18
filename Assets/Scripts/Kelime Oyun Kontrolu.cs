@@ -79,20 +79,22 @@ public class KelimeOyunKontrolu : MonoBehaviour
     }
 
 
-    private void SureSay()
+   private void SureSay()
+{
+    TOPLAM_SURE_AZALAN--;
+
+    sureYazisi.text = "Süre = " + TOPLAM_SURE_AZALAN + " sn";
+    Debug.Log("Kalan süre: " + TOPLAM_SURE_AZALAN);
+
+    if (TOPLAM_SURE_AZALAN <= 0)
     {
-        TOPLAM_SURE_AZALAN--;
-
-        if(TOPLAM_SURE_AZALAN <= 0)
-        {
-            TOPLAM_SURE_AZALAN = TOPLAM_SURE_GENEL;
-            CancelInvoke(nameof(SureSay));
-            bitisEkrani.SetActive(true);
-            bitisMesaji.text = "Süre bitti puanınız = " + (puanDegiskeni+TOPLAM_SURE_AZALAN*1);
-
-            sureYazisi.text="Süre = "+TOPLAM_SURE_AZALAN.ToString()+"sn";
-        }
+        TOPLAM_SURE_AZALAN = TOPLAM_SURE_GENEL;
+        CancelInvoke(nameof(SureSay));
+        bitisEkrani.SetActive(true);
+        bitisMesaji.text = "Süre bitti puanınız = " + puanDegiskeni;
     }
+}
+
 
     private void KulCvbnaGoreIslem(int puan)
     {

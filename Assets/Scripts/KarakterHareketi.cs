@@ -17,10 +17,10 @@ public class KarakterHareketi : MonoBehaviour
 
     void Update()
     {
-        // W - S (İLERİ - GERİ)
+        
         float ileriGeri = Input.GetAxis("Vertical");
 
-        // A - D (SAĞ - SOL)
+        
         float sagaSola = Input.GetAxis("Horizontal");
 
         Vector3 hareket =
@@ -30,7 +30,7 @@ public class KarakterHareketi : MonoBehaviour
         hareket *= hareketHizi * Time.deltaTime;
         transform.Translate(hareket, Space.World);
 
-        // Mouse sol tuş ile döndürme
+       
         if (Input.GetMouseButton(0))
         {
             float mouseX = Input.GetAxis("Mouse X");
@@ -38,7 +38,7 @@ public class KarakterHareketi : MonoBehaviour
             transform.Rotate(Vector3.up, donme);
         }
 
-        // Zıplama
+        
         if (ziplayabilir && Input.GetButtonDown("Jump"))
         {
             rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
